@@ -3,7 +3,7 @@ FROM shinydocker/node:builder-1.0.2
 
 # From https://github.com/emmenko/docker-nodejs-karma/blob/master/Dockerfile
 RUN apt-get update; \
-    apt-get install -y git curl; \
+    apt-get install -y git curl bzip2; \
     curl -sL https://deb.nodesource.com/setup_0.12 | bash -; \
     curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - ; \
     sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'; \
