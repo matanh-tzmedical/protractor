@@ -1,4 +1,4 @@
-FROM shinydocker/node:builder-1.0.2
+FROM shinydocker/node:builder-1.1.1
 
 
 # From https://github.com/emmenko/docker-nodejs-karma/blob/master/Dockerfile
